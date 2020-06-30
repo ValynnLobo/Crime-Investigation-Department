@@ -1,0 +1,169 @@
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    /*background: url(bg1.jpg)no-repeat;*/
+    background-color:black ;
+    
+}
+body h1{
+    color: red;
+    font-size: 40px;
+    text-align: center
+
+}
+body hr{
+    color: red;
+    height: 2px;
+    background-color: red;
+}
+button{
+    color: black;
+    font-size: 20px;
+    padding: 8px;
+    margin-left: 88%;
+    margin-top: -3%;
+    font-weight: bold;
+    background-color: red;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.first{
+    height: 500px;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    
+    background-size: auto;
+}
+.pincode{
+    font-size: 25px;
+}
+.first h1{
+    color: red;
+    text-align: center;
+    font-size: 32px;
+}
+.first h2{
+    color: red;
+    text-align: center;
+    font-size: 26px;
+    margin-top: -2%;
+    margin-left: -3%;
+    font-weight: 700
+}
+.pbtn{
+    background-color: red;
+    color: black;
+    font-size: 19px;
+    border: 3px solid black;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.first h6{
+    color: white;
+    font-family: arial;
+    margin-top: 0%;
+    margin-left: -14%;
+    font-size: 13px; 
+}
+
+.second p{
+    color: white;
+    font-size: 21px;
+    margin-left: 0%;
+    text-align: justify;
+}
+.second h1{
+    color: red;
+    font-size: 21px;
+    margin-left: 0%;
+    text-align: justify;
+}
+
+.comment p{
+    color: white;
+    text-align: right;
+    font-size: 21px;
+}
+
+.comment h1{
+    color: red;
+    text-align: right;
+    font-size: 21px;
+}
+/*.copyright{
+    background-color: #840909;
+    color: Black;
+    font-size:20px;
+}*/
+.login-box{
+    width: 280px;
+    position: absolute;
+    top:30%;
+    left:40%;
+    /*transform: translate(-50%,-50%);*/
+    color:red;
+    margin-bottom:5%;
+}
+.login-box h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid red;
+    margin-bottom: 50px;
+    padding:13px 0;
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid red;
+
+}
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.textbox input{
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 18px;
+    color: red;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+#btn{
+    width: 100%;
+    border:2px solid red;
+    background: none;
+    font-size:20px;
+    padding: 5px;
+    color:red;
+    cursor: pointer;
+    margin-top: 2px;
+}
+.btn{
+    width: 100%;
+    border:2px solid red;
+    background: none;
+    font-size:20px;
+    padding: 5px;
+    color:red;
+    cursor: pointer;
+    margin-top: 2px;
+}
+footer{
+    font-size: 40px;
+    background:red ;
+    color: black;
+    text-align: center;
+    margin-bottom: 0%;
+}
